@@ -1,0 +1,48 @@
+<!-- <h1>interpolation</h1>
+{{2+2}} 
+<br>
+{{myVariable}}
+<br>
+<p><strong>pipes</strong></p>
+{{bitWiseOr}}
+
+<h1>Data Binding</h1>
+<input type="text" [value]="myVariableOne"/>
+<br>
+<input type="text" value={{myVariableOne}}/>
+
+<br>
+
+<button (click)="callMyFunction()">save</button>
+<br>
+<h1>two way data Binding</h1>
+<input type="text" [some]="myname" (input)="updateValue($event)">
+{{myname}} -->
+
+<!-- <h1>ngFor</h1>
+<table>
+    <tr>
+        <td>
+            name
+        </td>
+    </tr>
+    <tr *ngFor="let record of records">
+        <td>{{record.name}}</td>
+        <br>
+        <br/>
+        <td>{{record.college}}</td>
+
+    </tr>
+</table> -->
+
+<button (click)="updateName()">Save</button>
+<p>{{something}}</p>
+
+<button *ngIf="ifCase" (click)="ifCaseWork()">Save</button>
+<p>{{something}}</p>
+
+<input type="test" class="form-control" (input)="onUpdate($event)">
+
+<p>{{getServerStatus}}</p>
+
+

@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "employeeId": null,
+      "employeeName": "asdf",
+      "employeeSalary": "asd",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
